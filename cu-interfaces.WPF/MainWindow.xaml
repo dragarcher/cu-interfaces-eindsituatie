@@ -1,0 +1,27 @@
+﻿<Window x:Class="cu_interfaces.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:cu_interfaces.WPF"
+        mc:Ignorable="d"
+        Title="Programming Advanced - Interfaces" Height="798" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <Button x:Name="btnTvWoonkamerPower" Content="TV Woonkamer Power" HorizontalAlignment="Left" Margin="10,88,0,0" VerticalAlignment="Top" Width="200" Click="btnTvWoonkamerPower_Click"/>
+        <Label x:Name="lblTvWoonkamer" Content="TV is uit" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="200" FontWeight="Bold" HorizontalContentAlignment="Center" Background="Red" Height="73" VerticalContentAlignment="Center"/>
+        <Button x:Name="btnSmartLampGangPower" Content="Lamp gang Power" HorizontalAlignment="Left" Margin="480,88,0,0" VerticalAlignment="Top" Width="200" Click="btnSmartLampGangPower_Click"/>
+        <Label x:Name="lblSmartLampGang" Content="Lamp gang is uit" HorizontalAlignment="Left" Margin="480,10,0,0" VerticalAlignment="Top" Width="200" FontWeight="Bold" HorizontalContentAlignment="Center" Background="Red" Height="73" VerticalContentAlignment="Center"/>
+        <Button x:Name="btnRadioKeuken" Content="Radio Keuken Power" HorizontalAlignment="Left" Margin="242,88,0,0" VerticalAlignment="Top" Width="200" Click="btnRadioKeuken_Click" />
+        <Label x:Name="lblRadioKeuken" Content="Radio is uit" HorizontalAlignment="Left" Margin="242,10,0,0" VerticalAlignment="Top" Width="200" FontWeight="Bold" HorizontalContentAlignment="Center" Background="Red" Height="73" VerticalContentAlignment="Center"/>
+        <Button x:Name="btnTvWoonKamerVolumeDown" Content="Volume down" HorizontalAlignment="Left" Margin="10,113,0,0" VerticalAlignment="Top" Width="80" Click="btnTvWoonKamerVolumeDown_Click"/>
+        <Button x:Name="btnTvWoonKamerVolumeUp" Content="Volume up" HorizontalAlignment="Left" Margin="130,113,0,0" VerticalAlignment="Top" Width="80" Click="btnTvWoonKamerVolumeUp_Click"/>
+        <Button x:Name="btnRadioKeukenVolumeDown" Content="Volume down" HorizontalAlignment="Left" Margin="242,113,0,0" VerticalAlignment="Top" Width="80" Click="btnRadioKeukenVolumeDown_Click"/>
+        <Button x:Name="btnRadioKeukenVolumeUp" Content="Volume up" HorizontalAlignment="Left" Margin="362,113,0,0" VerticalAlignment="Top" Width="80" Click="btnRadioKeukenVolumeUp_Click"/>
+        <Label x:Name="lblTvWoonKamerVolume" Content="0" HorizontalAlignment="Left" Margin="90,110,0,0" VerticalAlignment="Top" Width="40" HorizontalContentAlignment="Center"/>
+        <Label x:Name="lblRadioKeukenVolume" Content="0" HorizontalAlignment="Left" Margin="322,110,0,0" VerticalAlignment="Top" Width="40" HorizontalContentAlignment="Center"/>
+        <Button x:Name="btnCheckConnections" Content="Check connections" HorizontalAlignment="Left" Margin="10,228,0,0" VerticalAlignment="Top" Width="200" Click="btnCheckConnections_Click"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="504" Margin="10,253,0,0" VerticalAlignment="Top" Width="772">
+            <TextBlock x:Name="tbkTestConnectionFeedback" TextWrapping="Wrap" Text="" Background="#FFF7FEFF"/>
+        </ScrollViewer>
+    </Grid>
+</Window>
