@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace cu_interfaces.LIB.Interfaces
 {
-    interface IPowerable
+    public interface IPowerable
     {
         bool IsOn { get; set; }
 
