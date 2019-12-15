@@ -20,6 +20,7 @@
         <Label x:Name="lblTvWoonKamerVolume" Content="0" HorizontalAlignment="Left" Margin="90,110,0,0" VerticalAlignment="Top" Width="40" HorizontalContentAlignment="Center"/>
         <Label x:Name="lblRadioKeukenVolume" Content="0" HorizontalAlignment="Left" Margin="322,110,0,0" VerticalAlignment="Top" Width="40" HorizontalContentAlignment="Center"/>
         <Button x:Name="btnCheckConnections" Content="Check connections" HorizontalAlignment="Left" Margin="10,228,0,0" VerticalAlignment="Top" Width="200" Click="btnCheckConnections_Click"/>
+        <Button x:Name="btnCheckInterfaceImplementation" Content="All volume up" HorizontalAlignment="Left" Margin="221,228,0,0" VerticalAlignment="Top" Width="200" Click="btnCheckInterfaceImplementation_Click" />
         <ScrollViewer HorizontalAlignment="Left" Height="504" Margin="10,253,0,0" VerticalAlignment="Top" Width="772">
             <TextBlock x:Name="tbkTestConnectionFeedback" TextWrapping="Wrap" Text="" Background="#FFF7FEFF"/>
         </ScrollViewer>
